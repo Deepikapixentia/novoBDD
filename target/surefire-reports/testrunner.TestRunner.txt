@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.513 s <<< FAILURE! -- in testrunner.TestRunner
+Feature.Feature - Scenario -- Time elapsed: 8.981 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Home> but was: <ChasmaNOVO>
+	at stepdefinitions.LoginSteps.user_will_redirects_to_tab(LoginSteps.java:69)
+	at ✽.user will redirects to "Home" tab(classpath:testscripts/regression/Loginvalidation.feature:12)
+
